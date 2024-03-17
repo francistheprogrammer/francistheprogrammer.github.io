@@ -1,0 +1,1273 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Madimi+One&family=Unbounded:wght@200..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    
+}
+
+.flex {
+    display: flex;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #181670;
+}
+
+.header{
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.noun {
+    width: 50%;
+}
+
+.service-img {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 700;
+    color: #181670;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.fiesta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove {
+    display: none;
+}
+
+#projects,
+.contact-page {
+    margin-top: 4rem;
+}
+
+#contact-footer,
+.contact-page-header,
+.reach,
+.reach-social{
+    display: flex;
+    justify-content: center;
+}
+
+.newhi {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.advn {
+    width: 20%;
+}
+
+.list-item a {
+    color: rgba(0, 0, 0, 0.76);
+    font-size: .9rem;
+    font-family: "Unbounded", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.yellow-text{
+    color: #F59E0B;
+    text-decoration-line: underline;
+}
+
+.about-content-text .yellow-pin {
+    color: #F59E0B;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+a .yellow-p  {
+    color: #F59E0B;
+}
+
+.yellow-p {
+    font-weight: bold;
+}
+
+.contact-btn button{
+    font-family: "Unbounded", sans-serif;
+    outline: none;
+    border: none;
+    padding: .5rem 3rem;
+    background-color: #181670;
+    color: #ffffff;
+    border-radius: .5rem;
+    font-size: .9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.cv-download button {
+    outline: none;
+    border: 1px solid #181670;
+    padding: .5rem 3rem;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    color: #181670;
+}
+
+.links {
+    font-family: "Unbounded", sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.newabout {
+    margin-top: 6rem;
+}
+
+
+.myskill-header,
+.project-header,
+.startup-heading img {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+.about-header {
+    display: flex;
+    justify-content: center;
+}
+
+.myskill-header {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+.topper {
+    margin-top: 2rem;
+}
+
+.about-content-text p,
+.reach
+ {
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: "Unbounded", sans-serif;
+
+}
+
+.reach-social {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+.jobbermen {
+    width: 100%;
+}
+
+.jobber {
+    width: 200%;
+}
+
+.startup-heading p,
+.my-skill p,
+.footer-body p {
+    font-family: "Unbounded", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.social-media {
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.user-flowcontent h3{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Unbounded", sans-serif;
+}
+
+.wireframe,
+.userflow-header h2{
+    font-size: 2.4rem;
+}
+
+/*@supports (-webkit-text-stroke: 1px #181670) {
+    .service-img {
+      -webkit-text-stroke: 1px #181670;
+      -webkit-text-fill-color: white;
+      font-size: 4rem;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+    }
+  }*/
+
+.jobberman {
+    width: 100%;
+}
+
+  .services {
+    border: 1px solid #181670;
+    border-radius: 1.5rem;
+  }
+
+  .services p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 0rem 1rem;
+  }
+
+.service-item {
+    padding: 0rem 1rem;
+}
+
+.service-item-1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.service-content {
+    font-size: 2.2rem;
+}
+
+
+.hamburger-img {
+    width: 83%;
+    padding-top: 1.2rem;
+}
+
+.dev-border {
+    border-left: 3px solid #181670;
+    padding-left: 1rem;
+}
+
+.designer {
+    margin: 2rem 0rem;
+    font-size: 2rem;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.tools-list {
+    width: 100%;
+}
+
+.first-logo {
+    width: 100%;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.main-page-text h2 {
+    font-family: "Unbounded", sans-serif;
+    line-height: 1.3;
+    letter-spacing: .06rem;
+}
+
+
+.package-2 {
+    width: 100%;
+    position: relative;
+}
+
+.project-img-2{
+    border-radius: 1rem;
+}
+
+.project-p {
+    width: 100%;
+    border-radius: 1rem;
+    border-color: 1px solid #e8e8e8;
+}
+
+.view-arrow {
+    margin-left: 1rem;
+    animation-name: forward;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.copyright {
+    font-family: "Unbounded", sans-serif;
+    font-size: .8rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.works{
+    font-weight: bold;
+    color: #181670;
+}
+
+.build {
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.footer-body .yellow-p {
+    color: #F59E0B;
+}
+
+.vege-header {
+    margin-top: 1.8rem;
+}
+
+.vege-header .heading {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    color: #181670;
+    font-family: "Unbounded", sans-serif;
+}
+
+.footer-body {
+    display: flex;
+    justify-content: center;
+}
+
+.new-start {
+    font-size: 4.3rem;
+    font-weight: bold;
+    color: #181670;
+}
+
+.alt-colour {
+    color: #F59E0B;
+    text-decoration: underline;
+}
+
+
+#project-details p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: #afafaf;
+}
+
+.back-btn img {
+    margin-right: .4rem;
+}
+
+.back-btn {
+    display: flex;
+    align-items: center;
+}
+
+.back-btn span {
+    color: black;
+    font-size: 1.2rem;
+    padding-top: .4rem;
+}
+
+#project-details {
+    margin-top: 4rem;
+}
+
+.logo-fruit h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #181670;
+}
+
+.summary-header h5 {
+    font-size: 1.4rem;
+    color: #181670;
+}
+
+.summary-content h3 {
+    font-size: 2rem;
+}
+
+.summary-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.summary-btn button {
+    outline: none;
+    border: 1px solid #181670;
+    padding: .5rem 3rem;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 1rem;
+    background-color: #ffffff;
+}
+
+.myrole-header,
+.myrole-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.my-role {
+    background-color: #F59E0B;
+    
+    border-radius: .5rem;
+    color: #ffffff;
+    padding: 1rem .5rem .5rem .5rem;
+    margin-bottom: 3rem;
+}
+
+.my-goal {
+    margin-top: 3rem;
+}
+
+
+
+.view-project2 button,
+.view-project button{
+        color: #181670;
+        
+        border: 1px solid #181670;
+        background-color: #ffffff;
+}
+
+
+
+.sneaker-text1,
+.sneaker-tech h6,
+.sneaker-content h4,
+.problem-header h6 {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.sneaker-top {
+    margin-top: 3rem;
+}
+
+.sneaker-buttom {
+    margin-bottom: 3rem;
+}
+
+.p2-view {
+    font-size: 1.5rem;
+    color: rgba(255, 0, 0, 0.644);
+    text-decoration: underline;
+}
+
+.problem-header h1 {
+    font-size: 2.8rem;
+}
+
+.sneaker-text1 {
+    margin-top: .5rem;
+}
+
+.ui-text {
+    font-size: 2rem;
+}
+
+.jinga {
+    border: 1px solid #F59E0B;
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.jinga2 {
+    border: 1px solid #181670;
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.service-offer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.remove-text[data-visible = "false"] {
+    display: none;
+}
+
+.lgservice-text[data-visible = "false"] {
+    display: none;
+}
+
+.lgservice-text[data-visible = "true"] {
+    display: block;
+}
+
+.blue[data-visible = "false"] {
+    display: none;
+}
+
+
+@media screen and (min-width: 770px) {
+    
+
+    #about {
+        margin-top: 6rem;
+    }
+
+    .service-img {
+        text-align: center;
+    }
+
+    .logo-img {
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .header {
+        padding: 0rem 7rem;
+        background-color: #ffffff;
+    }
+
+    .main-page {
+        flex-direction: row;
+        gap: 3rem;
+        margin: 2rem 0rem;
+    }
+
+    .myprofile2 {
+        width: 90%;
+    }
+
+    .main-page-img {
+        width: 100%;
+    }
+
+    .main-page-text {
+        width: 150%;
+        margin-top: 2.5rem;
+        
+    }
+
+
+    .list-item {
+        padding-top: .5rem;
+        gap: 4rem;
+    }
+
+    .nav-btn button {
+        font-size: .9rem;
+    }
+
+    .list-item li {
+        margin-top: .5rem;
+    }
+
+    .lg-project {
+        width: 100%;
+    }
+
+    .package-1 {
+        width: 100%;
+        margin-top: 3.5rem;
+    }
+
+    .number2 {
+        width: 28%;
+        position: absolute;
+        right: 1rem;
+        margin-top: -5rem;
+    }
+
+    .number1 {
+        width: 10%;
+        position: absolute;
+        margin-top: -4rem;
+        left: 30rem;
+    }
+
+    .package-2 {
+        margin-top: 3.2rem;
+    }
+
+    .project-sub p{
+        font-weight: 300;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-project {
+        margin-top: 2rem;
+    }
+
+    .second-project {
+        margin-top: 2rem;
+    }
+
+    .view-project2 {
+        margin-top: 8rem;
+    }
+
+    .first-logo,
+    .second-logo {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .tools-list {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+
+    .startup-header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .view-project2 {
+        padding-top: 1rem;
+    }
+
+    .start-upview {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-header {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        width: 100%;
+    }
+
+    .fiesta {
+        display: flex;
+    }
+
+    .summary-header h5 {
+        font-size: 1.6rem;
+    }
+    
+    .summary-content h3 {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    .my-role {
+        margin: 0% 40%;
+    }
+
+    .sneaker-frame {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .certifcate {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .cv-download p,
+    .cv-download a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service-offer {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .service-text {
+        padding-top: 1rem;
+    }
+
+    .tools {
+        width: 50%;
+    }
+
+    .uidesign {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .ui-image {
+        width: 86%;
+    }
+
+    .lgservice-text {
+        border-top: 1px solid #181670;
+        margin-top: .3rem;
+    }
+
+    .yellow-lg {
+        border-top: 1px solid #f59f0b8f;
+    }
+
+    .blue-lg{
+        border-top: 1px solid #171670bb;
+        margin-top: .3rem;
+    }
+
+    .project-sub {
+        margin-bottom: 5rem;
+    }
+
+    .ui-text {
+        font-family: "Unbounded", sans-serif;
+        font-size: 1rem;
+        align-self: center;
+    }
+
+    .remove-text {
+        font-family: "Unbounded", sans-serif;
+        font-size: .1rem;
+    }
+
+    .tools-list h3 {
+        font-size: .8rem;
+        font-weight: 300;
+        font-family: "Unbounded", sans-serif;
+    }
+
+    .cert-hide-lg {
+        display: none;
+    }
+
+    .project-sub h4 {
+        font-weight: 300;
+        font-size: 1rem;
+        font-family: "Unbounded", sans-serif;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .about-content-text p {
+        font-size: .9rem;
+    }
+
+    .certificate-1 {
+        display: none;
+    }
+
+    .tools-list h3 {
+        font-size: .7rem;
+        font-weight: 300;
+        font-family: "Unbounded", sans-serif;
+    }
+
+    .project-sub h4 {
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+    .project-sub {
+        font-family: "Unbounded", sans-serif;
+    }
+
+    .cert-hide {
+        display: none;
+    }
+
+    .project1-text p,
+    .project1-text a  {
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: "Unbounded", sans-serif;
+}
+
+    .nav-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .contact-btn button {
+        font-size: .9rem;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    .contact-btn {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .hide-sm {
+        display: none;
+    }
+
+    .project-sub {
+        margin-bottom: 4rem;
+    }
+
+    .logo-img {
+        width: 75%;
+        margin-top: 1rem;
+    }
+
+    .header {
+        padding: 0rem 1rem 1rem 1rem;
+        background-color: #ffffff;
+    }
+
+    .main-page {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .main-page-img {
+        display: flex;
+        justify-content: center;
+        margin: 4rem 0rem 1rem 0rem;
+    }
+
+    .main-page-text h2 {
+        font-weight: 600;
+    }
+
+    .main-page-text h1{
+        font-weight: bold;
+        font-size: 2.9rem;
+        width: 100%;
+    }
+
+    .about-content .about-page-img {
+        margin: 2.5rem 0rem;
+    }
+
+    .about-page-img {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+
+    .myprofile3 {
+        width: 100%;
+    }
+
+    .hero {
+        margin-top: 3rem;
+    }
+
+    .start-up {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-img {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0rem;
+    }
+
+    .project-one {
+        
+        width: 100%;
+    }
+
+    .nav-list {
+        position: fixed;
+        background-color: #ffffff;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        z-index: 10000;
+        display: none;
+    }
+
+    .navigation {
+        justify-content: space-between;
+        margin: 0rem 1rem;
+    }
+
+    .close-link {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .close-link a {
+        color: #181670;
+        font-size: 1.85rem;
+    }
+
+    .contact-content {
+        margin-top: .5rem;
+    }
+
+    .close {
+        margin-top: .9rem;
+        margin-right: .5rem;
+    }
+
+    .close-img {
+        width: 80%;
+    }
+
+    .list-item {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .list-item li {
+        display: flex;
+        justify-content: center;
+        font-family: "Unbounded", sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .nav-list[data-visible = "true"] {
+        display: block;
+    }
+
+    .list-item {
+        margin-top: 4rem;
+        gap: 2rem;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+
+    .tools-main {
+        width: 10%;
+    }
+
+    .tools {
+        width: 100%;
+    }
+
+
+
+    .first-logo,
+    .second-logo{
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .first-logo p,
+    .second-logo p{
+        font-size: 1.1rem;
+    }
+
+    .project-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .package-2 {
+        margin-top: 4rem;
+    }
+
+    .number2 {
+        width: 40%;
+        position: absolute;
+        right: 1rem;
+        margin-top: -5rem;
+    }
+
+    .number1 {
+        width: 35%;
+        position: absolute;
+        right: 1rem;
+        margin-top: -2.2rem;
+    }
+
+    .list-item .navigation-list {
+        font-size: 1.22rem;
+        color: #181670;
+    }
+
+    .list-item .navvy-list {
+        color: #17167075;
+    }
+
+    .footer-header {
+        
+        margin-top: 3rem;
+    }
+
+    .in-touch {
+        margin: 2rem 0rem 1rem 0rem;
+        width: 100%;
+    }
+     
+    .in-touch img {
+        width: 100%;
+    }
+
+    .idea {
+        font-weight: 300;
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+
+    .fiesta {
+        display: flex;
+        
+    }
+
+    .my-role {
+        margin: 0% 10%;
+    }
+
+    .cv-download p{
+        display: flex;
+        justify-content: center;
+        font-size: .9rem;
+        font-family: "Unbounded", sans-serif;
+        font-weight: 300;
+        padding-top: 1rem;
+    }
+
+    .certifcate {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .middle-project-text {
+        display: flex;
+        justify-content: center;
+        font-size: 1.7rem;
+        font-weight: 300;
+    }
+
+    .button-cert {
+        margin-top: 1.5rem;
+    }
+
+    .my-skill .skill-details {
+        font-size: 1rem;
+    }
+
+    .ui-image {
+        width: 80%;
+    }
+
+    .ui-text {
+        font-family: "Unbounded", sans-serif;
+        font-size: 1rem;
+        align-self: center;
+    }
+
+    .service-offer {
+        margin-bottom: 1rem;
+    }
+
+    .remove-text {
+        border-top: 1px solid #f59f0b8f;
+        font-family: "Unbounded", sans-serif;
+        font-size: .2rem;
+    }
+
+    .blue{
+        border-top: 1px solid #171670bb;
+        margin-top: .3rem;
+    }
+
+    .service-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .summary-content h3{
+        font-weight: 300;
+        font-size: 1rem;
+        font-family: "Unbounded", sans-serif;
+    }
+}
+
+
+
+
+@media screen and (min-width: 770px) and (max-width: 900px) {
+    .main-page-img {
+        margin-top: 3rem;
+        width: 90%;
+        margin-left: 5rem;
+    }
+
+    .main-page {
+        margin-top: 6rem;
+        flex-direction: column;
+    }
+
+    .main-page-text h1{
+        font-weight: bold;
+        font-size: 2.3rem;
+    }
+
+    .mscreen {
+        display: none;
+    }
+
+    .about-page-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .myprofile3 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .jheight {
+        width: 85%;
+    }
+
+    .main-page-text {
+        width: 100%;
+    }
+
+    .project-p {
+        width: 100%;
+    }
+
+    
+    .project-1 {
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .project-img {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .project-img-2 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    .mscreen {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .main-page-img {
+        margin-top: 3rem;
+        width: 90%;
+        margin-left: 5rem;
+    }
+
+    .main-page {
+        margin-top: 6rem;
+        flex-direction: row;
+    }
+
+    .main-page-text h2{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .about-page-img {
+        width: 150%;
+        margin-top: 3rem;
+    }
+
+    .about-content-text {
+        margin-top: 2rem;
+    }
+
+    .myprofile3 {
+        width: 100%;
+    }
+
+    .main-page {
+        gap: 3rem;
+        margin-top: 9rem;
+    }
+
+    .main-page-text h1{
+        font-weight: bold;
+        font-size: 2.8rem;
+        margin-top: 2rem;
+    }
+
+    .hero2 {
+        width: 95%;
+        margin-left: 3rem;
+        
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+    }
+
+    .project-p {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    
+    .project-1 {
+        display: flex;
+        gap: 6rem;
+    }
+
+    .jinga,
+    .jinga2 {
+        margin-top: 2rem;
+    }
+
+    .hide-lg {
+        display: none;
+    }
+
+}
