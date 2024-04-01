@@ -519,6 +519,14 @@ footer {
     gap: 1rem;
 }
 
+.music-project {
+    display: flex;
+}
+
+.music-img {
+    width: 100%;
+}
+
 .remove-text[data-visible = "false"] {
     display: none;
 }
@@ -597,7 +605,7 @@ footer {
 
     .package-1 {
         width: 100%;
-        margin-top: 3.5rem;
+        margin-top: 4rem;
     }
 
     .number2 {
@@ -779,6 +787,11 @@ footer {
         text-align: center;
     }
 
+    .music-project {
+        flex-direction: row;
+        gap: 4rem;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -786,8 +799,17 @@ footer {
         font-size: .9rem;
     }
 
+    .second-project {
+        margin-top: 2rem;
+    }
+
     .certificate-1 {
         display: none;
+    }
+
+    .music-project {
+        flex-direction: column;
+        gap: 3rem;
     }
 
     .tools-list h3 {
@@ -839,7 +861,7 @@ footer {
     }
 
     .project-sub {
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     .logo-img {
@@ -904,7 +926,6 @@ footer {
     }
 
     .project-one {
-        
         width: 100%;
     }
 
