@@ -513,14 +513,11 @@ footer {
     width: 100%;
 }
 
-.service-offer {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
+
 
 .music-project {
     display: flex;
+    width: 100%;
 }
 
 .music-img {
@@ -795,8 +792,18 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+    body {
+        overflow-x: hidden;
+    }
+
+
     .about-content-text p {
         font-size: .9rem;
+    }
+
+    #at15s.atm {
+        left:auto !important;
+        right:0 !important;
     }
 
     .second-project {
@@ -1119,7 +1126,12 @@ footer {
         align-self: center;
     }
 
+    
+
     .service-offer {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
         margin-bottom: 1rem;
     }
 
