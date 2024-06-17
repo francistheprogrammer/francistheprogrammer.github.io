@@ -8,28 +8,24 @@
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+    
     <link rel="stylesheet" href="./style.css">
     <script src="script.js" defer ></script>
 </head>
 <body>
     <div class="container">
-        <div class="header flex">
-            <div class="logo" data-aos="fade-left" data-aos-duration="1000">
-                <a href="index.html"><img class="logo-img" src="images/Francis Okorie..svg" alt=""></a>
-            </div>
-            <div class="hamburger hide-lg" data-aos="fade-right" data-aos-duration="1000">
-                <img class="hamburger-img" src="images/Component 7.svg" alt="">
-            </div>
-            <div class="nav-list" data-visible = "false">
-                <div class="navigation flex hide-lg">
-                    <div class="logo">
-                        <a href="index.html"><img class="logo-img" src="images/Francis Okorie..svg" alt=""></a>
-                    </div>
-                    <div class="close hide-lg">
-                        <img class="close-img" src="images/Vector.svg" alt="">
-                    </div>
-                </div>
-                <ul class="list-item flex">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid container">
+              <div class="main-logo">
+                <a href="index.html">
+                  <img class="img-l" src="./images/Francis Okorie..svg" alt="">
+              </a>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="list-item flex ms-auto">
                     <li><a href="#about" class="navigation-list about-list">About Me</a></li>
                     <li><a href="#project" class="navigation-list project-list">Project</a></li>
                     <div class="contact-btn nav-btn">
@@ -55,8 +51,12 @@
                         </div>
                     </li>
                 </ul>
+              </div>
             </div>
-        </div>
+        </nav>
+
+
+        
         <div class="main-page flex">
             <div class="about-page-img main-remove hide-lg" data-aos="fade-down" data-aos-duration="1000">
                 <img class="myprofile3 hero hide-lg" src="images/profile-pics.svg" alt="">
@@ -269,19 +269,34 @@
             </div>
             </div>
 
-            <div class="ecommerce" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="10">
-                <div class="package-1">
-                    <div class="project-img">
-                        <img class="project-one hide-lg" src="images/Slide 16_9 - 1.png" alt="" >
-                        <img class="lg-project hide-sm" src="images/Slide 16_9 - 1.png" alt="">
-                    </div>
-                    <div class="project1-text first-project">
-                        <p>A UI/UX design for an E-commerce application for all kinds of users.
-                            It comprises of cart, and tracking session to track your Orders.
+            <div class="music-project" style="margin-top: 2rem;">
+                <div class="music-project-1" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="10">
+                    <img class="music-img" src="./images/optimizeyou.png" alt="">
+                    <div class="project1-text second-project">
+                        <p>A Web application for an Advisory Company based in Kenya.
+                           Fully responsive on mobile and large screen.
                         </p>
-                        <a href="project-one.html" class="view-project2"><button>View Project <span><img class="advn" src="images/icons8-right-arrow-50.png" alt=""></span></button></a>
+                        <a href="https://optimizeyouadvisory.com/" class="view-project2"><button>View Project <span><img class="advn" src="images/icons8-right-arrow-50.png" alt=""></span></button></a>
                     </div>
                 </div>
+                <div class="music-project-1" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="50">
+                    <div class="package-1">
+                        <div class="project-img">
+                            <img class="project-one hide-lg" src="images/Slide 16_9 - 1.png" alt="" >
+                            <img class="lg-project hide-sm" src="images/Slide 16_9 - 1.png" alt="">
+                        </div>
+                        <div class="project1-text first-project">
+                            <p>A UI/UX design for an E-commerce application for all kinds of users.
+                                It comprises of cart, and tracking session to track your Orders.
+                            </p>
+                            <a href="project-one.html" class="view-project2"><button>View Project <span><img class="advn" src="images/icons8-right-arrow-50.png" alt=""></span></button></a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+            <div class="ecommerce" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="10">
+                
             </div>
         </div>
     </div>
