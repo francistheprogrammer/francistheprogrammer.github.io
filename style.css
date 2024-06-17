@@ -565,7 +565,7 @@ footer {
     .main-page {
         flex-direction: row;
         gap: 3rem;
-        margin: 2rem 0rem;
+        margin: .2rem 0rem;
     }
 
     .myprofile2 {
@@ -883,7 +883,11 @@ footer {
 
     .main-page {
         flex-direction: column;
-        margin-top: 2rem;
+        margin-top: .2rem;
+    }
+
+    .img-l {
+        width: 70%;
     }
 
     .main-page-img {
